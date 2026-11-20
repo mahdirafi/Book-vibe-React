@@ -1,0 +1,22 @@
+import React from 'react';
+import BannerImg from '../../assets/BannerImg.png'
+
+const Banner = () => {
+    return (
+        <div className="hero bg-base-200 min-h-screen container mx-auto ">
+  <div className="hero-content flex-col lg:flex-row-reverse w-full justify-between">
+    <img
+      src={BannerImg}
+      className="max-w-sm rounded-lg "
+    />
+    <div>
+      <h1 className="text-5xl font-bold">Books to freshen up <br /> your bookshelf</h1>
+       
+      <button className="btn btn-success mt-4 text-white">View The List</button>
+    </div>
+  </div>
+</div>
+    );
+};
+
+export default Banner;
